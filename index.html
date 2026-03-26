@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibrahim Dada | Web Developer</title>
+    <meta name="description" content="Web Developer specializing in SEO, performance, and analytics">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <nav class="container nav">
+        <h1 class="logo">Ibrahim<span>.</span></h1>
+        <ul class="nav-links">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    </nav>
+</header>
+
+<section class="hero container">
+    <h2>I build <span id="typing"></span><span class="cursor">|</span></h2>
+    <p>Web Developer focused on performance, SEO & analytics.</p>
+    <div class="hero-btns">
+        <a href="#projects" class="btn-outline">View My Work</a>
+    </div>
+</section>
+
+<section id="projects" class="container">
+    <h2 class="section-title">Featured Projects</h2>
+    <div id="projects-container" class="projects-grid">
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div> 
+        <div class="skeleton-card"></div>
+    </div>
+</section>
+
+<section id="contact" class="container">
+    <div class="contact-card">
+        <h2 class="section-title">Get In Touch</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <textarea name="message" placeholder="Project details..." required></textarea>
+            <button type="submit" class="btn-primary" id="submit-btn">Send Message</button>
+        </form>
+        <p id="form-status"></p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Ibrahim Dada. Built with passion & clean code.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
